@@ -1,0 +1,46 @@
+:root {
+    /* Primary Colors*/
+
+    /* primary background color */
+    --aubergine: #2b1b22;
+
+    /* darker shades */
+    --temptress: #2b1a20;
+    --temptress-dark: #2a181f;
+
+    /* lighter shades */
+    --aubergine-lighter: #2b1d23;
+    --aubergine-lightest: #2b1d24;
+
+
+    /* Secondary Colors */
+
+    /* main secondary color */
+    --lipstick: #922c38;
+
+    /* darker shades */
+    --claret: #6b2034;
+
+    /* lighter shades */
+    --rouge: #b83d5e;
+    --cranberry: #da4f75;
+    --dark-pink: #ed5f85;
+
+    /* Accent and Text Colors */
+
+    /* light text and accents */
+    --shady-lady: hsl(325, 7%, 80%);
+
+    /* dark text and accents */
+    --jon: #453d41;
+
+    /* darker shades */
+    --scorpion: #6a5c64;
+
+    /* lighter shades */
+    --venus: #8a7982;
+    --tapestry: #b86190;
+}
+
+/* For dark mode keep scheme as-is. For light mode 
+invert the Primary and Secondary colors */

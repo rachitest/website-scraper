@@ -1,0 +1,47 @@
+@import "https://cdn.jsdelivr.net/npm/bulma@1.0.2/css/bulma.min.css";
+@import "./colors.css";
+
+:root {
+    --bulma-body-background-color: var(--aubergine);
+
+    .bodoni-moda-hero {
+        font-family: "Bodoni Moda", serif;
+        font-optical-sizing: auto;
+        font-weight: 500;
+        font-style: normal;
+        font-size: 256px;
+    }
+
+    .bodoni-moda-title {
+        font-family: "Bodoni Moda", serif;
+        font-optical-sizing: auto;
+        font-weight: 400;
+        font-style: SemiBold;
+    }
+
+    .bodoni-moda-body {
+        font-family: "Bodoni Moda", serif;
+        font-optical-sizing: auto;
+        font-weight: 300;
+        font-style: normal;
+    }
+}
+
+.bodoni-moda-hero,
+.bodoni-moda-title,
+.bodoni-moda-body {
+    color: var(--shady-lady);
+}
+
+navbar.navbar {
+    background-color: var(--lipstick);
+}
+
+.navbar-item:hover {
+    background-color: var(--lipstick);
+}
+
+.navbar-brand .navbar-item a,
+.navbar-menu .navbar-item a {
+    color: var(--shady-lady);
+}

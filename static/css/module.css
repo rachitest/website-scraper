@@ -1,0 +1,58 @@
+@import "https://cdn.jsdelivr.net/npm/bulma@1.0.2/css/bulma.min.css";
+
+
+navbar.navbar {
+    border-radius: 30px;
+
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 5vh;
+
+    max-width: 90vw;
+}
+
+.navbar-item,
+.navbar-item:hover {
+    border-radius: 30px;
+}
+
+
+.container.is-fluid {
+    display: flex;
+    flex-direction: column;
+
+    position: fixed;
+
+    align-items: center;
+    justify-content: center;
+
+    max-height: 100vh;
+
+}
+
+video {
+    border-radius: 30px;
+
+    opacity: 0.4;
+
+    margin-top: 1rem;
+
+    width: 90vw;
+    max-height: 85vh;
+
+    z-index: -1;
+    object-fit: cover;
+}
+
+div p {
+    opacity: 0.5;
+
+    position: absolute;
+
+    left: 50%;
+    top: 50%;
+
+    transform: translate(-50%, -50%);
+
+    z-index: 2
+}
